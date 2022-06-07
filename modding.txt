@@ -1,0 +1,33 @@
+
+MODDING MANUAL
+Last update: 02.06.2022
+Version of manual: 1.1e
+
+1st Part, information:
+
+mod= If you want to modify SBM, then do not change anything in this variable, if you don't want to modify SBM in variable "mod" remove "m" letter
+
+license= You can use the standard license (GNU GPL V2), or change the name of the license in the "license" variable. But unfortunately you won't be able to use the proprietary license as it would violate the rules of the GNU license that comes with the program
+
+name= In this variable you can put your nickname if you want, it will display on start screen.
+
+2nd Part modding SBM:
+
+Part 2.1, Adding commands:
+If you want to add your custom command then copy the example and customize it.
+
+EXAMPLE:
+       elif main == "urcommand":
+            Ur code here:
+
+Part 2.2, changing 'input' text:
+Variables 'main' are in lines 26 and 66, you can change them however you want.
+
+Part 2.3, 34th line:
+IDK what to write here, change it however you want.
+
+Part 2.4, Progpath:
+In line 24 you must write path to main executable or python file.
+
+
+END OF MANUAL
